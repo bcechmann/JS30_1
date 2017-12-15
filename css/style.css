@@ -5,7 +5,7 @@
 
 .music-box {
   height: 100vh;
-  background-image: url("/css/pic/rock-concert-smoke-light-78521.png");
+  background-image: url("pic/rock-concert-smoke-light-78521.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
