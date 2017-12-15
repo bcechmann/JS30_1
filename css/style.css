@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.music-box {
+  height: 100vh;
+  background-image: url("/css/pic/rock-concert-smoke-light-78521.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .music-box .key {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100px;
+    height: 100px;
+    transition: all .07s;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.6);
+    border-radius: 25%;
+    margin: 10px; }
+  .music-box h1 {
+    padding: 10px; }
+  .music-box .playing {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    border-color: #d35400;
+    box-shadow: 0 0 8px 8px #d35400; }
+
+/*# sourceMappingURL=style.css.map */
